@@ -1,0 +1,15 @@
+server:
+     port: 8081
+     servlet:
+       context-path: /msresizeimage/api
+      
+spring:    
+    datasource:
+            platform: postgres  
+            jdbc-url: jdbc:postgresql://libranzas-aplicaciones.chimul6agbmw.us-east-1.rds.amazonaws.com:5432/report_bank_instancia2
+            username: report_bank
+            password: 'the2aiDa3a@&EC2013'
+            driver-class-name: org.postgresql.Driver
+            hikari:
+                maximum-pool-size: 20
+                connection-timeout: 70000  
